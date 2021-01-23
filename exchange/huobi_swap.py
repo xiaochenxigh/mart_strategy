@@ -178,8 +178,8 @@ class HBDM:
         # return await http_request('POST',path,req)
         return await api_key_post('https://api.huobi.pro', '/v2/account/transfer', req, self.__access_key, self.__secret_key)
 
-# cli = HBDM(access_key='01d1b3be-e3f6eab5-67c706e9-bvrge3rf7j',secret_key='0fea5ff2-fcf2d94c-61906f30-d49a5')#wang
-# cli = HBDM(access_key='a694f976-8cfde48e-9bebbe3c-xa2b53ggfc',secret_key='2b9458b6-e1f9d393-2ca5ef61-2e0f5') # zhang
+# cli = HBDM(access_key='0j',secret_key='a5')#wang
+# cli = HBDM(access_key='ac',secret_key='25') # zhang
 # print(asyncio.get_event_loop().run_until_complete(cli.create_order('eth-usdt',1,'sell','open',30)))#800980215462445056
 # print(asyncio.get_event_loop().run_until_complete(cli.get_order('eth-usdt',800980215462445056)))
 # print(asyncio.get_event_loop().run_until_complete(cli.depth('eth-usdt')))
