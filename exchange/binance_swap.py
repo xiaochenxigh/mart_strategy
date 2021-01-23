@@ -141,7 +141,7 @@ class BNDM:
         return await http_request('GET', self.__url + path, req, headers)
 
 #import asyncio
-#cli = BNDM(access_key="Ih9HZPWUt87REAjEy1ajpmC0IJxvAIyKqSweuENc9hbTCbNOSUVOJrb3k3WYV3wW", secret_key="tz7fOdlujIJGpd02m5PmYX0yhtMSIok0Mx2ZcAex935Te391d71BTwcIFNIoBQcD")
+#cli = BNDM(access_key="", secret_key="")
 #res = asyncio.run(cli.position_info())
 #for i in res:
 #    if i['symbol']=='BTCUSDT' and i['positionSide']=='SHORT':
